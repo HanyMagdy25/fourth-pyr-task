@@ -12,12 +12,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  /* overflow-x: hidden !important; */
   /* font-family: 'Sacramento', cursive; */
 }
 body {
   margin: 0;
   background: #0C0C0C;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   color: var(--color-white);
 }
 /* Some Shortcuts */

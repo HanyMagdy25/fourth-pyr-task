@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import pngwing from "../../assets/pngwing.png";
+import { FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 function Hero() {
   return (
     <div className="hero">
@@ -26,6 +28,17 @@ function Hero() {
             veniam consequat sunt nostrud amet.
           </p>
           <span>Fruit Mania</span>
+        </div>
+        <div className="hero__icons">
+          <span className="flex-center">
+            <AiFillInstagram />
+          </span>
+          <span className="flex-center">
+            <FaFacebookSquare />
+          </span>
+          <span className="flex-center">
+            <FaTwitterSquare />
+          </span>
         </div>
       </div>
     </div>
