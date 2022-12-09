@@ -1,0 +1,129 @@
+.footer {
+  background-color: #000000;
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__top h2 {
+  width: 200px;
+  font-size: 30px;
+  color: #898888;
+}
+.footer__top form {
+  border: 1px solid var(--color-white);
+  border-radius: 2px;
+  height: 50px;
+  width: 550px;
+  display: flex;
+}
+.footer__top form input {
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+  /* width: 100%; */
+}
+.footer__top form button {
+  height: 100%;
+  border: none;
+  background-color: #d9d9d9;
+  padding: 10px 15px;
+}
+.footer__icons {
+  background-color: #171719;
+  width: 310px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 10px 30px;
+}
+.footer__icons div {
+  margin-top: 10px;
+}
+.footer__icons span {
+  margin-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 3px;
+  border: 1px solid transparent;
+}
+.footer__icons span:hover {
+  border: 1px solid var(--color-white);
+}
+.footer__bottom {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+.footer__bottom .footer__bottom__links a {
+  margin-left: 40px;
+  color: var(--color-white);
+}
+.footer__logo {
+  /* margin-left: 100px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__logo span {
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  line-height: 1.1;
+}
+.footer__logo-food {
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer__logo-empire {
+  font-family: "Sacramento", cursive;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding: 10px 10px 0 10px;
+  }
+  .footer__top h2 {
+    width: unset;
+    margin-bottom: 10px;
+  }
+  .footer__top form {
+    border: 1px solid var(--color-white);
+    border-radius: 2px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .footer__top form input {
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    /* width: 100%; */
+  }
+  .footer__bottom__links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__bottom .footer__bottom__links a {
+    margin-left: 15px;
+  }
+  .footer__bottom {
+
+    margin: 10px 10px 0 10px;
+  }
+}

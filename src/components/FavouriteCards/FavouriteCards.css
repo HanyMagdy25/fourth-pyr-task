@@ -1,0 +1,25 @@
+.FavouriteCards {
+  margin: 60px 0 25px 0;
+}
+.FavouriteCards__cards {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+}
+hr {
+  border: 1px solid #171719;
+  margin: 15px 0 20px 0;
+}
+.FavouriteCards__title{
+  display: flex;
+  justify-content: space-between;
+}
+.FavouriteCards__arrow{
+  margin-left: 18px;
+}
+@media screen and (max-width: 1000px) {
+  .FavouriteCards {
+    padding: 0 10px;
+  }
+}

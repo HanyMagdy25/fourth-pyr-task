@@ -1,0 +1,85 @@
+.hero {
+  background-image: url("../../assets/Rectangle\ Hero1.png");
+  object-fit: contain;
+  width: 100%;
+  height: 500px;
+  padding-top: 20px;
+}
+.hero__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero__date {
+  width: 250px;
+  margin-top: 60px;
+}
+.hero__date h3 span {
+  color: #898888;
+}
+.hero__date-title {
+  margin: 15px 0 10px 0;
+  font-weight: 400;
+}
+.hero__date p {
+  font-weight: 100;
+}
+/* Img */
+.hero__img {
+  height: 500px;
+  /* background-color: aqua; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.hero__img img {
+  height: 115%;
+  object-fit: cover;
+  /* background-color: aqua; */
+}
+
+.hero__details {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 0px;
+  position: relative;
+}
+.hero__details h1 {
+  text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  font-size: 60px;
+}
+.hero__details p {
+  font-weight: 100;
+}
+.hero__details span {
+  font-family: "Sacramento", cursive;
+  color: var(--color-yellow);
+  position: absolute;
+  top: 35%;
+  right: 75px;
+}
+
+@media screen and (max-width: 600px) {
+  .hero__date {
+    width: 90%;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .hero__img {
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero {
+    height: 680px;
+  }
+  .hero__details {
+    width: 80%;
+    margin-top: 40px;
+    padding-left: 10px;
+  }
+  .hero__details span {
+    top: 25%;
+  }
+}
