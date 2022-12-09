@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fourth-pyr-task/static/css/main.1d73bc22.css",
+    "main.css": "/fourth-pyr-task/static/css/main.2a2a92f6.css",
     "main.js": "/fourth-pyr-task/static/js/main.f1d9a384.js",
     "static/media/Rectangle Hero1.png": "/fourth-pyr-task/static/media/Rectangle Hero1.0e9254f77c2bd84c8ef9.png",
     "static/media/pngwing.png": "/fourth-pyr-task/static/media/pngwing.f46e4fa62fc5a5653998.png",
     "index.html": "/fourth-pyr-task/index.html",
-    "main.1d73bc22.css.map": "/fourth-pyr-task/static/css/main.1d73bc22.css.map",
+    "main.2a2a92f6.css.map": "/fourth-pyr-task/static/css/main.2a2a92f6.css.map",
     "main.f1d9a384.js.map": "/fourth-pyr-task/static/js/main.f1d9a384.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d73bc22.css",
+    "static/css/main.2a2a92f6.css",
     "static/js/main.f1d9a384.js"
   ]
 }
